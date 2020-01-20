@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.a {
+  font-family:cursive;
+}
+p.b {
+  font-family:monospace;
+}
+div.gallery img {
+    width:50px;
+    height:50px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: midnightblue;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+img {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+p.dotted {border-style:dotted;}
+</style>
+<script src="https://kit.fontawesome.com/1a0e658209.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <h1>CSS Original Work</h1>
+        <h2>Level 1: Newbie</h2>
+        <h3>1. Two paragraphs that each have a different font.</h3>
+        <p class="a">This paragraph is in a cursive font.</p>
+        <p class="b">This paragraph is in a monospace font.</p>
+        <h3>2. Two pictures that were originally different sizes, resized to 50px by 50px.</h3>
+        <div class="gallery">
+            <a target="blank" href="https://www.latintimes.com/chinese-new-year-2020-15-messages-celebrate-year-rat-454078">
+                <img src="https://images.latintimes.com/sites/latintimes.com/files/styles/full/public/2020/01/07/year-rat.jpg" alt="Chinese New Year" width="50px" height="50px">
+            </a>
+        </div>
+        <div class="gallery">
+            <a target="blank" href="https://www.ftd.com/blog/share/how-to-rebloom-orchids">
+                <img src="https://www.ftd.com/blog/content/uploads/2017/08/rebloom-orchids-hero-720x477.jpg" alt="Orchids" width="50px" height="50px">
+            </a>
+        </div>
+        <h3>3. CSS command -- CSS Icons.</h3>
+        <i class="fas fa-atom"></i>
+        <i class="fas fa-brain"></i>
+        <i class="fas fa-bong"></i>
+        <i class="fas fa-balance-scale"></i>
+        <h2>Level 2: Apprentice.</h2>
+        <h3>1. Text that is centered on a photo</h3>
+        <div class="container">
+            <img src="https://ssl.quiksilver.com/static/QS/default/category-assets/marketing-landing/landing/img/snow/tiles/snow_featured_2.jpg" alt="Snowboarding" style="width:96%">
+            <div class="centered">Snowboarding</div>
+        </div>
+        <h3>2. A photo with 20 pixel margins on each side</h3>
+        <img src="https://image.businessinsider.com/5d13e321b44ce765b75a8d10?width=1100&format=jpeg&auto=webp" alt="Mt. Rainier" style="width:96%">
+        <h3>3. Text with a border that use dotted lines</h3>
+        <p class="dotted">Text with a dotted border.</p>
+
+
+    </body>
+</html>
+
+
+
